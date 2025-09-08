@@ -191,7 +191,7 @@ def illustrate_api_integration(prompt: str, generated_instructions: str):
     print(json.dumps(api_response, indent=2, ensure_ascii=False))
     print("---------------------------\n")
 
-# --- Konfigurasi dan Eksekusi (Versi Lebih Hemat RAM) ---
+# --- Konfigurasi dan Eksekusi ---
 if __name__ == "__main__":
     BASE_MODEL = "mistralai/Mistral-7B-Instruct-v0.2"
     ADAPTER_MODEL = "mistral-7b-task-instructions-adapter"
